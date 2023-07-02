@@ -1,10 +1,10 @@
 # Contando-silabas-en-poesia-Haiku-con-python
 #Proyecto CC112-B / Grupo 02 : Contando sílabas en poesía Haiku
+
 import nltk
 from nltk.corpus import cmudict
 
-# nltk nos proporciona un conjunto de herramientas y recursos que ayudan en el análisis, la manipulación y la comprensión del lenguaje humano.
-
+#nltk nos proporciona un conjunto de herramientas y recursos que ayudan en el análisis, la manipulación y la comprensión del lenguaje humano.
 """Descargamos los corpus cmudict para contar las sílabas de la poesía Haiku y
 también descargamos punkt para tokenizar las oraciones (dividir el texto en oraciones individuales)"""
 nltk.download('cmudict')
